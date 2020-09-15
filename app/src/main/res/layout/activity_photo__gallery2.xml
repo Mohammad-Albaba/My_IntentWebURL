@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photo_Gallery2"
+    android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/linear1"
+    android:layout_marginTop="50dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:onClick="img_1"
+        android:id="@+id/imageView1"
+        android:background="@android:drawable/ic_menu_report_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <ImageView
+        android:onClick="img_2"
+        android:background="@android:drawable/ic_menu_report_image"
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:onClick="img_3"
+            android:background="@android:drawable/ic_menu_report_image"
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <ImageView
+            android:onClick="img_4"
+            android:background="@android:drawable/ic_menu_report_image"
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_ShareMultiImage"
+        android:onClick="btn_ShareMultiImage"
+        android:drawableLeft="@android:drawable/ic_menu_report_image"
+        android:text="Share MULTI Image"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
